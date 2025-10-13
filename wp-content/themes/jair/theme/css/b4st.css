@@ -1095,11 +1095,8 @@ a, a:hover {
     }
 
     & .nav-item {
-        width: max-content;
+        flex: 0 0 20%;
         text-align: center;
-        margin: 0 auto;
-        flex: 1 1 calc(25% - 1rem);
-        /* 4 colunas */
     }
 
     & .nav-link {

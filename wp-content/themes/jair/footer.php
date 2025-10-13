@@ -11,16 +11,16 @@
             </div>
             <div class="col-md-6 navbar-footer">
                 <?php
-        wp_nav_menu(array(
-          'theme_location'  => 'navbar',
-          'container'       => false,
-          'menu_class'      => '',
-          'fallback_cb'     => '__return_false',
-          'items_wrap'      => '<ul id="%1$s" class="navbar-nav mr-auto %2$s">%3$s</ul>',
-          'depth'           => 2,
-          'walker'          => new b4st_walker_nav_menu()
-        ));
-        ?>
+                wp_nav_menu(array(
+                    'theme_location'  => 'navbar',
+                    'container'       => false,
+                    'menu_class'      => '',
+                    'fallback_cb'     => '__return_false',
+                    'items_wrap'      => '<ul id="%1$s" class="navbar-nav mr-auto %2$s">%3$s</ul>',
+                    'depth'           => 2,
+                    'walker'          => new b4st_walker_nav_menu()
+                ));
+                ?>
             </div>
             <div class="col-md-2">
                 <p>Acompanhe-nos e fique por dentro das novidades!</p>
@@ -53,7 +53,7 @@ Viewport width indicator
 Just delete this if or when you don't need it.
 -->
 
-<div id="vp"
+<!-- <div id="vp"
     style="position: fixed; bottom: 0.5rem; right: 0.5rem; z-index: 999; display: inline-block; background: #555; color: #ffffff; padding: 0 0.5rem 0.125rem; border-radius: 0.25rem;">
 </div>
 
@@ -65,7 +65,7 @@ window.addEventListener('resize', function() {
     viewportWidth = window.innerWidth + 'px';
     vp.innerHTML = viewportWidth;
 });
-</script>
+</script> -->
 
 <?php wp_footer(); ?>
 </body>
