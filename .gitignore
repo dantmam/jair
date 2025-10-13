@@ -1,0 +1,4 @@
+.htaccess
+wp-config.php
+/dist/.htaccess
+/dist/wp-config.php
