@@ -13,5 +13,5 @@ jobs:
           host: ${{ secrets.HOST }}
           user: ${{ secrets.USER }}
           password: ${{ secrets.PASS }}
-          localDir: "."
-          remoteDir: "public_html"
+          localDir: "wp-content/themes/jair"
+          remoteDir: "public_html/wp-content/themes/jair"

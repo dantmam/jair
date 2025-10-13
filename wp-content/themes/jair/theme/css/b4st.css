@@ -1088,17 +1088,18 @@ a, a:hover {
 
 .navbar-footer {
     & .navbar-nav {
-        display: grid;
-        grid-template-columns: repeat(4, max-content);
+        display: flex;
         justify-content: center;
-        width: max-content;
-        margin: 0 auto;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     & .nav-item {
         width: max-content;
         text-align: center;
         margin: 0 auto;
+        flex: 1 1 calc(25% - 1rem);
+        /* 4 colunas */
     }
 
     & .nav-link {
@@ -1284,11 +1285,12 @@ a, a:hover {
 
     .navbar-footer {
         & .navbar-nav {
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-            width: 100%;
             margin: 2rem auto;
+            flex-direction: column;
+        }
+
+        & .nav-item {
+            flex: none;
         }
     }
 
