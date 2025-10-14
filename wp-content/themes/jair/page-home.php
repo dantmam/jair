@@ -135,21 +135,21 @@
                 'posts_per_page' => -1
             )); ?>
             <?php if ($the_query->have_posts()) : ?>
-            <?php while ($the_query->have_posts()) :
+                <?php while ($the_query->have_posts()) :
                     $the_query->the_post(); ?>
-            <div class="col-md-4">
-                <a href="<?php echo get_permalink() ?>">
-                    <div class="equipe-item">
-                        <img src="<?php echo get_the_post_thumbnail_url() ?>" alt="">
-                        <h3><?php the_title() ?></h3>
-                        <?php echo get_field('curriculo_home') ?>
+                    <div class="col-md-4">
+                        <a href="<?php echo get_permalink() ?>">
+                            <div class="equipe-item">
+                                <img src="<?php echo get_the_post_thumbnail_url() ?>" alt="">
+                                <h3><?php the_title() ?></h3>
+                                <?php echo get_field('curriculo_home') ?>
+                            </div>
+                        </a>
                     </div>
-                </a>
-            </div>
-            <?php endwhile; ?>
-            <?php wp_reset_postdata(); ?>
+                <?php endwhile; ?>
+                <?php wp_reset_postdata(); ?>
             <?php else : ?>
-            <p><?php __('No News'); ?></p>
+                <p><?php __('No News'); ?></p>
             <?php endif; ?>
         </div>
         <p class="content-title-p text-center" style="color: #89A59F;">E mais: uma equipe completa de fonoaudiólogas,
@@ -190,11 +190,11 @@
                     $nome = get_sub_field('nome');
                     $slug = sanitize_title($nome);
             ?>
-            <a href="<?= site_url() ?>/especialidades">
-                <div class="especialidade-item">
-                    <h4><?php echo esc_html($nome); ?></h4>
-                </div>
-            </a>
+                    <a href="<?= site_url() ?>/especialidades">
+                        <div class="especialidade-item">
+                            <h4><?php echo esc_html($nome); ?></h4>
+                        </div>
+                    </a>
             <?php
                     $count++;
                 endwhile;
@@ -239,13 +239,13 @@
                 while (have_rows('exames', $page_id)) : the_row();
                     if ($count >= $max_itens) break; // interrompe o loop quando atingir o limite
             ?>
-            <div class="col-md-3">
-                <a href="<?= site_url() ?>/exames">
-                    <div class="especialidade-item">
-                        <?php echo get_sub_field('nome'); ?>
+                    <div class="col-md-3">
+                        <a href="<?= site_url() ?>/exames">
+                            <div class="especialidade-item">
+                                <?php echo get_sub_field('nome'); ?>
+                            </div>
+                        </a>
                     </div>
-                </a>
-            </div>
 
             <?php
                     $count++;
@@ -271,13 +271,13 @@
                 while (have_rows('cirurgias', $page_id)) : the_row();
                     if ($count >= $max_itens) break; // interrompe o loop quando atingir o limite
             ?>
-            <div class="col-md-3">
-                <a href="<?= site_url() ?>/cirurgias">
-                    <div class="especialidade-item">
-                        <?php echo get_sub_field('nome'); ?>
+                    <div class="col-md-3">
+                        <a href="<?= site_url() ?>/cirurgias">
+                            <div class="especialidade-item">
+                                <?php echo get_sub_field('nome'); ?>
+                            </div>
+                        </a>
                     </div>
-                </a>
-            </div>
 
             <?php
                     $count++;
@@ -299,17 +299,17 @@
             if (have_rows('faq')) :
                 while (have_rows('faq')) : the_row();
             ?>
-            <div class="pergunta-line">
-                <a class="pergunta" data-bs-toggle="collapse" href="#pergunta-<?php echo $count ?>" role="button"
-                    aria-expanded="false" aria-controls="collapseExample">
-                    <h3><?php echo $count ?>. <?php echo get_sub_field('pergunta') ?></h3>
-                </a>
-                <div class="collapse" id="pergunta-<?php echo $count ?>">
+                    <div class="pergunta-line">
+                        <a class="pergunta" data-bs-toggle="collapse" href="#pergunta-<?php echo $count ?>" role="button"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            <h3><?php echo $count ?>. <?php echo get_sub_field('pergunta') ?></h3>
+                        </a>
+                        <div class="collapse" id="pergunta-<?php echo $count ?>">
 
-                    <p><?php echo get_sub_field('resposta') ?></p>
+                            <p><?php echo get_sub_field('resposta') ?></p>
 
-                </div>
-            </div>
+                        </div>
+                    </div>
 
             <?php
                     $count++;
@@ -334,7 +334,9 @@
                 </div>
                 <div class="col-md-5">
                     <?php echo do_shortcode('[contact-form-7 id="437ded2" title="Formulário de contato"]') ?>
-                    <p class="text-center"><span>Nossa equipe responderá em até X horas/dias.</span></p>
+                    <p class="text-center w-sm-80 mx-auto"><span>Nossa equipe retornará o contato em até 24h. Se
+                            preferir entre
+                            em contato em nosso telefone: <a href="tel:2125224949">(21) 2522-4949</a></span></p>
                 </div>
             </div>
         </div>
