@@ -347,12 +347,10 @@
     <div class="container">
         <div class="local">
             <h2>Estamos no coração de Ipanema!</h2>
-            <p>Com fácil acesso, estacionamento e a poucos passos do metrô.</p>
+            <p>Com fácil acesso, estacionamento rotativo no prédio e a poucos passos do metrô.</p>
             <p class="my-3">Av. Visconde de Pirajá, 351 – sala 405 – Ipanema – Rio de Janeiro</p>
 
-            <p>Estacionamento rotativo no
-                prédio | O Fórum de Ipanema é o prédio mais conhecido em Ipanema, na Praça Nossa Senhora da Paz onde tem
-                estação do metrô | Acesso fácil ao metrô</p>
+            <p>Prédio do Fórum de Ipanema, na Praça Nossa Senhora da Paz (estação do metrô)</p>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.064659410923!2d-43.20825542468738!3d-22.984649679200423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd5050d8147fd%3A0xce4fd9eb3c0b4d8!2sDr.%20Jair%20de%20Carvalho%20e%20Castro%2C%20Otorrino!5e0!3m2!1spt-BR!2sbr!4v1759989830877!5m2!1spt-BR!2sbr"
                 height="450" style="border:0;" allowfullscreen="" loading="lazy"
