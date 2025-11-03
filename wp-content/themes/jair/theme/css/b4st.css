@@ -1379,6 +1379,9 @@ a, a:hover {
         & .logo {
             margin-bottom: 0;
         }
+        & .row img {
+            height: 350px;
+        }
     }
 
     .equipe-item-completa {
