@@ -4,7 +4,7 @@
     <div class="container">
         <div class="banner-content animate__animated animate__fadeInUp">
             <img class="logo" src="<?php echo get_template_directory_uri() ?>/theme/img/logo.svg" alt="Logo">
-            <h1>Clínica Dr. Jair de Castro | Otorrinolaringologia no Rio de Janeiro</h1>
+            <h1>Clínica Jair de Castro | Otorrinolaringologia no Rio de Janeiro</h1>
             <h2>Mais de 40 anos de excelência!</h2>
             <div class="btn-banner">
                 <a class="btn-ciano" href="https://wa.me/5521967724949" target="_blank">Fale conosco no WhatsApp<img
@@ -91,7 +91,7 @@
             </div>
 
             <div class="content-clinica">
-                <h2><b>Conheça a Clínica Dr. Jair de Castro |</b> Excelência em Otorrino no RJ</h2>
+                <h2><b>Conheça a Clínica Jair de Castro |</b> Excelência em Otorrino no RJ</h2>
                 <p>Mais de 40 anos de tradição em otorrinolaringologia, sono, alergia e reabilitação auditiva. Conheça
                     nossa história, equipe médica altamente qualificada e estrutura completa em Ipanema, Rio de Janeiro.
                 </p>
@@ -100,7 +100,7 @@
         <div class="conheca-clinica mt-5">
             <div class="content-clinica">
                 <h2><b>Da tradição à inovação:</b> uma equipe que respira cuidado e expertise.</h2>
-                <p>Há 40 anos, a Clínica Dr. Jair de Castro foi fundada, tendo como base a excelência e o cuidado. Seu
+                <p>Há 40 anos, a Clínica Jair de Castro foi fundada, tendo como base a excelência e o cuidado. Seu
                     fundador, formado pelas melhores instituições do país e do mundo, construiu um legado de confiança,
                     transformando vidas por meio da otorrinolaringologia.
                     <br>
@@ -162,9 +162,9 @@
 
 <section class="especialidades-home section-space" id="especialidades">
     <div class="container">
-        <h2>Especialidades em Otorrinolaringologia | Clínica Dr. Jair de Castro – RJ</h2>
+        <h2>Especialidades em Otorrinolaringologia | Clínica Jair de Castro – RJ</h2>
         <h3>Tecnologia, precisão e cuidado para quem busca ouvir, respirar e viver melhor.</h3>
-        <p>Há 40 anos, a Clínica Dr. Jair de Castro foi fundada, tendo como base a excelência e o cuidado. Seu fundador,
+        <p>Há 40 anos, a Clínica Jair de Castro foi fundada, tendo como base a excelência e o cuidado. Seu fundador,
             formado pelas melhores instituições do país e do mundo, construiu um legado de confiança, transformando
             vidas por meio da otorrinolaringologia.
             <br>
@@ -212,7 +212,7 @@
         <div class="row justify-content-center">
             <div class="col-md-6">
                 <h2><b class="d-block">Exames e Cirurgias Otorrinolaringológicas</b>
-                    Clínica Dr. Jair de Castro – RJ</h2>
+                    Clínica Jair de Castro – RJ</h2>
                 <img src="<?php echo get_template_directory_uri() ?>/theme/img/exames.jpg" alt="">
             </div>
             <div class="col-md-4">
@@ -326,7 +326,7 @@
                 <div class="col-md-7">
                     <div class="content-form">
                         <img src="<?php echo get_template_directory_uri() ?>/theme/img/banner-home.jpg" alt="">
-                        <h2>Entre em contato com a Clínica Dr. Jair de Castro!</h2>
+                        <h2>Entre em contato com a Clínica Jair de Castro!</h2>
                         <p>Agende sua consulta ou tire dúvidas pelo WhatsApp, e-mail ou formulário.</p>
                         <p><span>Preencha o formulário ou fale diretamente com a gente:</span></p>
                     </div>
