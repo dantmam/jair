@@ -960,6 +960,11 @@ a, a:hover {
         border-radius: 22px;
         margin-top: 2rem;
     }
+    & p {
+        font-weight: 500;
+        width: 65%;
+        margin: 0 auto;
+    }
 }
 
 .equipe-completa {
@@ -1367,6 +1372,9 @@ a, a:hover {
         & iframe {
             height: 250px;
         }
+        & p {
+            width: 100%;
+        }
     }
 
     #localizacao {
@@ -1389,7 +1397,12 @@ a, a:hover {
         & h2 {
             margin-top: 2rem;
         }
+    }
 
+    .equipe-item {
+        & ul {
+            padding-right: 0;
+        }
     }
 
     .especialidade-item-page {
