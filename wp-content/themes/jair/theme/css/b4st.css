@@ -1381,6 +1381,7 @@ a, a:hover {
         }
         & .row img {
             height: 350px;
+            object-position: top;
         }
     }
 
