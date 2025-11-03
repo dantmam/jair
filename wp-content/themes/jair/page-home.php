@@ -177,7 +177,7 @@
             Ao longo dessas quatro décadas, a clínica se tornou referência não apenas no Rio de Janeiro, mas também para
             pacientes que vêm de outros estados e países em busca de diagnóstico preciso e tratamento resolutivo.
         </p>
-        <h3 style="margin-bottom: 2rem">ESPECIALIDADES</h3>
+        <h3 style="margin-bottom: 2rem">Áreas de atuação</h3>
         <div class="d-grid grade-items">
             <?php
             $page_id = 53;
@@ -348,7 +348,7 @@
         <div class="local">
             <h2>Estamos no coração de Ipanema!</h2>
             <p>Com fácil acesso, estacionamento rotativo no prédio e a poucos passos do metrô.</p>
-            <p class="my-3">Av. Visconde de Pirajá, 351 – sala 405 – Ipanema – Rio de Janeiro</p>
+            <p>Av. Visconde de Pirajá, 351 – sala 405 – Ipanema – Rio de Janeiro</p>
 
             <p>Prédio do Fórum de Ipanema, na Praça Nossa Senhora da Paz (estação do metrô)</p>
             <iframe
